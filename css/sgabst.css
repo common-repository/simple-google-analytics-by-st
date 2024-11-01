@@ -1,0 +1,55 @@
+.sgabst-wrapper h1 {
+	font-size: 2.8em;
+	font-weight: 200;
+	margin-bottom: 26px;
+	margin-left: -4px;
+}
+.sgabst-wrapper h1:before {
+    font-family: "dashicons";
+    content: "\f111";
+    top: 8px;
+    position: relative;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.sgabst-wrapper table {
+  border: 1px solid black;
+  width: 44%;
+}
+.sgabst-wrapper table th {
+	padding: 20px 10px 20px 10px;
+}
+
+@media screen and (max-width: 1300px) {
+    .sgabst-wrapper {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 500px) {
+    .sgabst-wrapper h1 {
+		font-size: 1.7em;
+		margin-left: 0;
+	}
+	.sgabst-wrapper h1:before {
+	    top: 6px;
+		margin-right: 0px;
+	}
+}
+@media screen and (max-width: 782px) 
+{
+.sgabst-wrapper table {
+  border: 1px solid black;
+  width: 97%;
+  
+}
+.sgabst-wrapper table td {
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    padding-top: 4px;
+    padding-left: 6px;
+}
+
+}
